@@ -1,0 +1,10 @@
+[package]
+name = "netmap-tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+netmap-core = { path = "../netmap-core" }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+ipnetwork = "0.20"
