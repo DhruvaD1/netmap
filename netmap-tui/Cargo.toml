@@ -8,3 +8,7 @@ netmap-core = { path = "../netmap-core" }
 clap = { version = "4", features = ["derive"] }
 anyhow = "1"
 ipnetwork = "0.20"
+ratatui = "0.29"
+crossterm = "0.28"
+chrono = "0.4"
+pnet = "0.35"

@@ -9,3 +9,9 @@ ipnetwork = "0.20"
 chrono = "0.4"
 uuid = { version = "1", features = ["v4"] }
 thiserror = "1"
+socket2 = { version = "0.5", features = ["all"] }
+libc = "0.2"
+rayon = "1"
+dns-lookup = "2"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
